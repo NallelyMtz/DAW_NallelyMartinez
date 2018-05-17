@@ -1,0 +1,21 @@
+{
+  "name": "MyBootstrapApp",
+  "homepage": "https://github.com/NallelyMtz/DAW_NallelyMartinez",
+  "authors": [
+    "NallelyMtz <nallemttz@gmail.com>"
+  ],
+  "description": "How to use bootstrap framework",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "fontawesome": "^5.0.13"
+  }
+}
