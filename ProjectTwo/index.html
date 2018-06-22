@@ -9,10 +9,12 @@
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
   <!-- se agrega la libreria de los iconos-->
   <link rel="stylesheet" href="bower_components/fontawesome/web-fonts-with-css/css/fontawesome-all.css">
+  <!-- se agran los estilos personalisados -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <!--barra de navegacion -->
-<nav class="navbar navbar-expand-md navbar-light fixed-top navbar navbar-light " style="background-color: #e3f2fd;">
+<nav class="navbar navbar-expand-md navbar-light bg-dark fixed-top" style="background-color: #e3f2fd;">
   <a href="index.html" class="navbar-brand">Company Logo</a>
   <button class="navbar-toggler" data-toggle="collapse" data-target="#navegacion">
     <span class="navbar-toggler-icon"></span>
@@ -33,7 +35,23 @@
 
   </div>
 </nav>
-
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <h1>Featured Product</h1>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <div class="btn-group btn-group-lg">
+        <button class="btn btn-info">Buy Now!</button>
+        <button class="btn btn-default">Free Trial</button>
+      </div>
+      <p><a href="#">Read more about the product</a></p>
+    </div>
+    <div class="col-md-8 d-none d-sm-block">
+      <img src="img/expresarte1.jpg" alt="" width="750px" height="200px">
+    </div>
+  </div>
+  <hr>
+</div>
   <!-- se agrega la libreria de bootstrap js-->
   <script src="bower_components/jquery/dist/jquery.js"></script>
   <!-- seagrega la libreria de jquery para que bootstrap js funcione -->
