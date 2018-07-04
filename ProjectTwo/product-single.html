@@ -15,6 +15,7 @@
 <body>
   <!--barra de navegacion -->
 <nav class="navbar navbar-expand-md navbar-light bg-dark fixed-top" style="background-color: #e3f2fd;">
+
   <a href="index.html" class="navbar-brand">Company Logo</a>
   <button class="navbar-toggler" data-toggle="collapse" data-target="#navegacion">
     <span class="navbar-toggler-icon"></span>
@@ -23,7 +24,7 @@
     <ul class="navbar-nav">
      <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
      <li class="nav-item"><a href="Products.html" class="nav-link">Products</a></li>
-     <li class="nav-item"><a href="about.html.html" class="nav-link">About Us</a></li>
+     <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
      <li class="nav-item"><a href="#" class="nav-link" data-toggle="modal" data-target="#modal-contact-form">Contact Us</a></li>
      <li class="nav-item">
        <form class="form-inline my-2 my-lg-0">
@@ -35,72 +36,62 @@
 
   </div>
 </nav>
+
 <div class="container">
   <div class="row">
-    <div class="col-md-4">
-      <h1>Featured Product</h1>
-      <p>Lorem ipsum dolor sit amet.</p>
-      <div class="btn-group btn-group-lg">
-        <button class="btn btn-info">Buy Now!</button>
-        <button class="btn btn-default">Free Trial</button>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Homes</a></li>
+        <li class="breadcrumb-item"><a href="#">Product</a></li>
+      </ol>
+    </nav>
+  </div>
+  <div class="row">
+    <h1>Products. <small class="text-muted">We build amazing stuff</small></h1>
+  </div>
+  <hr>
+
+  <div class="row">
+    <div class="col-md-6">
+      <h2>Product One</h2>
+      <p>This is an awesome product one description</p>
+    </div>
+    <div class="col-md-6">
+      <div class="btn-group d-flex justify-content-end">
+        <button class="btn btn-primary">Buy now!</button>
+        <button class="btn btn-secondary">Free Trial</button>
       </div>
-      <p><a href="#">Read more about the product</a></p>
-    </div>
-    <div class="col-md-8 d-none d-sm-block">
-      <img src="img/expresarte1.jpg" alt="" width="750px" height="200px">
     </div>
   </div>
-  <hr>
   <div class="row">
-
-    <div class="col-md-8">
-      <h3>The Company</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, libero itaque quisquam. Illum labore debitis minus provident nam doloribus, omnis excepturi repellendus molestias fuga. Delectus nostrum odit id facere voluptates atque unde, consequatur corrupti molestiae quas cumque doloremque, in voluptatem, esse voluptate voluptas distinctio nisi totam. Exercitationem ut, eligendi ab.</p>
-  </div>
-  <div class="col-md-4">
-    <p class="bg-light rounded lead text-center p-md-5">
-      Our Motto
-    </p>
-  </div>
-</div>
-
-  <!-- /.row -->
-  <hr>
-  <div class="row">
-    <h3>Testimonials</h3>
-    <div class="col-md-12 text-center">
-    <div class="carousel slide" id="carouselTestimonios" data-ride"carousel">
+    <div class="carousel slide " id="carousel-product" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <blockquote class="blockquote">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo consequuntur harum voluptate fugiat aut, vel rem, praesentium placeat inventore odit!</p>
-            <footer class="blockquote-footer">
-              Ozkar Zevach
-            </footer>
-          </blockquote>
+          <img src="img/large1.jpg" alt="" class="d-block w-100">
         </div>
-        <div class="carousel-item">
-          <blockquote class="blockquote">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo consequuntur harum voluptate fugiat aut, vel rem, praesentium placeat inventore odit!</p>
-            <footer class="blockquote-footer">
-              Karina
-            </footer>
-          </blockquote>
+        <div class="carousel-item ">
+            <img src="img/large2.jpg" alt="" class="d-block w-100">
         </div>
-        <div class="carousel-item">
-          <blockquote class="blockquote">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo consequuntur harum voluptate fugiat aut, vel rem, praesentium placeat inventore odit!</p>
-            <footer class="blockquote-footer">
-             Zevach
-            </footer>
-          </blockquote>
+        <div class="carousel-item ">
+            <img src="img/large3.jpg" alt="" class="d-block w-100">
         </div>
+        </div>
+        <a href="#carousel-product" class="carousel-control-prev" data-slide="prev" role=button>
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a href="#carousel-product" class="carousel-control-next" data-slide="next" role=button>
+        <span class="carousel-control-next-icon"></span>
+      </a>
       </div>
-      <!-- /.carousel-inner -->
     </div>
-    <hr>
-    </div>
-    <!-- /.col -->
+  </div>
+
+
+
+  <hr>
+  <div class="row">
+
+
     <div class="footer col-md-12">
       <p class="text-center lead">
         Wanna get in touch? Email us at nallemttz@gmail.com
